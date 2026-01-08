@@ -7,8 +7,8 @@ tell application "System Events"
     if zoomRunning then
         tell process "zoom.us"
             set frontmost to true
-            delay 0.2
-            keystroke "5" using {option down, command down}
+            delay 0.5
+            key code 23 using {option down, command down}
         end tell
     else
         display notification "Zoom is not running" with title "Zoom Control"
