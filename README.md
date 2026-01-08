@@ -8,7 +8,9 @@ Control Zoom meetings from your Elgato Stream Deck using shell scripts.
 - **Toggle Video On/Off** - Cmd+Shift+V
 - **End Meeting** - Cmd+W
 - **Raise/Lower Hand** - Option+Y
-- **Applause Reaction** - Option+C
+- **Applause Reaction** - Option+Cmd+4
+- **Thumbs Up Reaction** - Option+Cmd+5
+- **Celebrate Reaction** - Option+Cmd+9
 
 ## Requirements
 
@@ -37,6 +39,8 @@ From the command line, test each script:
 ./scripts/end-meeting.sh
 ./scripts/raise-hand.sh
 ./scripts/applause.sh
+./scripts/thumbs-up.sh
+./scripts/celebrate.sh
 ```
 
 Make sure you're in a Zoom meeting when testing.
@@ -58,7 +62,9 @@ For each button you want to configure:
 | `toggle-video.sh` | Video On/Off | Cmd+Shift+V |
 | `end-meeting.sh` | End Meeting | Cmd+W |
 | `raise-hand.sh` | Raise/Lower Hand | Option+Y |
-| `applause.sh` | Applause Reaction | Option+C |
+| `applause.sh` | Applause Reaction | Option+Cmd+4 |
+| `thumbs-up.sh` | Thumbs Up Reaction | Option+Cmd+5 |
+| `celebrate.sh` | Celebrate Reaction | Option+Cmd+9 |
 
 ## Troubleshooting
 

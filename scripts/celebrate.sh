@@ -1,5 +1,5 @@
 #!/bin/bash
-# Send applause reaction using Option+Cmd+4
+# Send celebrate reaction using Option+Cmd+9
 
 osascript <<EOF
 tell application "System Events"
@@ -8,7 +8,7 @@ tell application "System Events"
         tell process "zoom.us"
             set frontmost to true
             delay 0.2
-            keystroke "4" using {option down, command down}
+            keystroke "9" using {option down, command down}
         end tell
     else
         display notification "Zoom is not running" with title "Zoom Control"
