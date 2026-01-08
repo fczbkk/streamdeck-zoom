@@ -42,5 +42,8 @@ Test scripts while in an active Zoom meeting:
 - Video: Cmd+Shift+V
 - Share Screen: Cmd+Shift+S
 - End Meeting: Cmd+W
+- Raise/Lower Hand: Option+Y
+- Applause Reaction: Option+C
 - Recording: Cmd+Shift+R
-- Participants: Cmd+Shift+H
+- Chat: Cmd+Shift+H
+- Participants: Cmd+U
