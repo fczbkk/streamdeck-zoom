@@ -58,10 +58,11 @@ For each button you want to configure:
 
 ### Scripts don't work
 
-1. **Check permissions**: Ensure Stream Deck has Accessibility access in System Settings
-2. **Verify Zoom is running**: The scripts require Zoom to be the active application
-3. **Test shortcuts manually**: Verify the keyboard shortcuts work in Zoom
-4. **Check script paths**: Make sure the full absolute path is used in Stream Deck
+1. **Check permissions**: Ensure Stream Deck (or Terminal for testing) has Accessibility access in System Settings → Privacy & Security → Accessibility
+2. **Verify Zoom is running**: The scripts will show a notification if Zoom isn't running
+3. **Test shortcuts manually**: Press Cmd+Shift+A in Zoom to verify the shortcut works
+4. **Check script paths**: Make sure the full absolute path is used in Stream Deck (e.g., `/Users/fczbkk/projects/automation/streamdeck-zoom/scripts/toggle-mute.sh`)
+5. **Zoom must be in a meeting**: Some shortcuts only work when you're in an active meeting
 
 ### Zoom shortcuts changed
 

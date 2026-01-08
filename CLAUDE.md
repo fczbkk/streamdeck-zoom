@@ -9,8 +9,11 @@ Shell scripts for controlling Zoom meetings via Elgato Stream Deck on macOS. Scr
 ## Architecture
 
 Simple automation using AppleScript via osascript:
-- Each script sends a specific keyboard shortcut to the "zoom.us" process
-- Uses `System Events` to simulate keypresses (e.g., Cmd+Shift+A for mute)
+- Each script checks if Zoom ("zoom.us" process) is running
+- Brings Zoom to foreground with `set frontmost to true`
+- Adds 0.2s delay to ensure window activation
+- Sends keyboard shortcuts via `System Events` (e.g., Cmd+Shift+A for mute)
+- Shows macOS notification if Zoom isn't running
 - Stream Deck's "System → Open" action executes these scripts
 
 ## Testing Scripts
